@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons';
 
+import DashboardScreen from './page/dashboard';
+/* import ProfileScreen from './page/ProfileScreen';
+import GroupScreen from './page/GroupScreen';
+*/
+import AvailabilityPage from './page/AvailabilityPage';
+import AvailabilityManagementPage from './page/AvailabilityManagementPage';
+import AvailabilityAddPage from './page/AvailabilityAddPage';
+import AvailabilityEditPage from './page/AvailabilityEditPage';
+import GroupListPage from './page/GroupListPage';
+import GroupDetailsPageMainActor from './page/GroupDetailsPageMainActor';
+import GroupDetailsPageSecActor from './page/GroupDetailsPageSecActor';
+import GroupSearchPage from './page/GroupSearchPage';
+import JoinRequestManagementPage from './page/JoinRequestManagementPage';
+import GroupMemberListMainActor from './page/GroupMemberListMainActor';
+import GroupMemberListSecActor from './page/GroupMemberListSecActor';
+import GroupMemberListCreatePage from './page/GroupMemberListCreatePage';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GroupMemberListCreatePage/>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

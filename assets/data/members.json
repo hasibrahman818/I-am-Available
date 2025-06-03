@@ -1,0 +1,21 @@
+[
+    {
+      "id": "u1",
+      "name": "Professor BBB",
+      "role": "Professor",
+      "hashtag": "#ProfBBB"
+    },
+    {
+      "id": "u2",
+      "name": "Student AAA",
+      "role": "Student",
+      "hashtag": "#StudAAA"
+    },
+    {
+      "id": "u3",
+      "name": "Student BBB",
+      "role": "Student",
+      "hashtag": "#StudBBB"
+    }
+  ]
+  

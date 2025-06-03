@@ -1,0 +1,27 @@
+[
+    {
+      "id": "u1",
+      "name": "Professor AAA",
+      "role": "Professor",
+      "hashtag": "#ProfAAA",
+      "status": "available",
+      "location": "Cabinet BB"
+    },
+    {
+      "id": "u2",
+      "name": "Professor BBB",
+      "role": "Professor",
+      "hashtag": "#ProfBBB",
+      "status": "soon",
+      "location": "Cabinet CC"
+    },
+    {
+      "id": "u3",
+      "name": "Professor CCC",
+      "role": "Professor",
+      "hashtag": "#ProfCCC",
+      "status": "not",
+      "location": "Zoom"
+    }
+  ]
+  

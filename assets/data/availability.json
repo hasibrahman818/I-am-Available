@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a1",
+    "name": "Professor AAA",
+    "date": "2025-04-15",
+    "timeStart": "09:00",
+    "timeEnd": "11:00",
+    "location": "Room 203",
+    "group": "XX-2024/25",
+    "recurring": true
+  },
+  {
+    "id": "a2",
+    "name": "Professor BBB",
+    "date": "2025-04-15",
+    "timeStart": "16:00",
+    "timeEnd": "17:30",
+    "location": "Zoom",
+    "group": "YY-2024/25",
+    "recurring": false
+  },
+  {
+    "id": "a3",
+    "name": "Professor CCC",
+    "date": "2025-04-16",
+    "timeStart": "13:00",
+    "timeEnd": "14:00",
+    "location": "Room 204",
+    "group": "ZZ-2024/25",
+    "recurring": true
+  }
+]
